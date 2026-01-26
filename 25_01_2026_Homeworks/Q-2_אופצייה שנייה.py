@@ -3,7 +3,7 @@ _lines: int = int(input("Enter a number of lines: "))
 _columns: int = int(input("Enter a number of columns: "))
 while _lines > 0 or _lines != 0:
     if _columns < 0 or _columns == 0:
-        print("invalid input")
+        print("please enter a positive integer")
         _columns: int = int(input("Enter a number of columns: "))
     else:
         a = 0
