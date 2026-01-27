@@ -9,6 +9,6 @@ else:
     elif (grade >= 60) and (grade < 80):
        print("Your Grade is Not Bad !! ")
     elif (grade >= 40) and (grade < 60): 
-        print("Your Grade is Bad Try Harder !! ")
+       print("Your Grade is Bad Try Harder !! ")
     elif (grade >= 0) and (grade <= 40):
-        print("Your Grade is Relly Bad , You Need More Exercise!! ") 
+       print("Your Grade is Relly Bad , You Need More Exercise!! ") 
