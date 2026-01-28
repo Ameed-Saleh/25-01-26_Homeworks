@@ -6,11 +6,9 @@ if grade > 100 or grade < 0:
     print("Invalid Grade")
 elif grade >= 80 :
     print("Your Grade is Very Good !! ")
-elif (grade >= 60) and (grade < 80):
+elif grade >= 60:
     print("Your Grade is Not Bad !! ")
-elif (grade >= 40) and (grade < 60):
+elif grade >= 40:
     print("Your Grade is Bad !! ")
-elif (grade >= 0) and (grade <= 40):
-    print("Your Grade is Relly Bad !! ")
 else :
     print ("Invalid Grade =", grade)
