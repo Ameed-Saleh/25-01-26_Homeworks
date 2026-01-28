@@ -1,10 +1,10 @@
 # שאלה 1- אופצייה שנייה
 grade: int = int(input("Enter a grade: "))
 while grade > 100 or grade < 0 :
-    print(grade ،" = invalid geade!")
+    print(grade ," = invalid geade!")
     grade: int = int(input("Please enter another grade: "))
 else: 
-    if (grade >= 80) and (grade <= 100):
+    if grade >= 80:
        print("Your Grade is Very Good !! ")
     elif (grade >= 60) and (grade < 80):
        print("Your Grade is Not Bad !! ")

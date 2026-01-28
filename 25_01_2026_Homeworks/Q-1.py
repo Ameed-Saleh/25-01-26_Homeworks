@@ -2,9 +2,9 @@
 # if-elif-else_Question
 
 grade: int = int(input("Enter a grade: "))
-if grade > 199 or grade < 0:
+if grade > 100 or grade < 0:
     print("Invalid Grade")
-elif (grade >= 80) and (grade <= 100):
+elif grade >= 80 :
     print("Your Grade is Very Good !! ")
 elif (grade >= 60) and (grade < 80):
     print("Your Grade is Not Bad !! ")
